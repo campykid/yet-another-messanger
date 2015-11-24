@@ -5,20 +5,54 @@
 	<link rel="stylesheet" href="https://yastatic.net/bem-components/latest/desktop/bem-components.css">
 	<script src="https://yastatic.net/bem-components/latest/desktop/bem-components.js+bh.js"></script>
 	<!-- Latest compiled and minified CSS -->
-	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha59-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="/stylesheets/style.css">
 </head>
 <body>
-	<div class="container">
-		<div class="page-header">
-			<h1>Yet another messanger<small> for people who like Borys Yeltsin</small></h1>
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Yet another messanger</h1>
+			<p> for people who like Borys Yeltsin</p>
 		</div>
+	</div>
 
+	<div class="container">
 		<div class="row">
-			<div class="col-md-10 col-md-offset-1"><textarea class="form-control" rows="3"></textarea></div>
-		</div>
-		<br>
-		<div class="row">
-			<div class="col-md-2 col-md-offset-10"><button class="btn btn-default" type="submit">Send <span class="glyphicon glyphicon-send"></span></button></div>
+
+
+			<div class="col-md-9">
+				<div class="panel panel-info">
+					<div class="panel-heading">
+						<h3 class="panel-title">Room</h3>
+					</div>
+					<div class="panel-body">
+						Messages
+					</div>
+					<div class="panel-body">
+						Messages
+					</div>
+
+				</div>
+			</div>
+
+			<div class="col-md-3 text-right ">
+				<ul class="nav nav-pills nav-stacked">
+					<li role="presentation" class="active"><a href="#">Guest room</a></li>
+					<li role="presentation"><a href="#">Specific room</a></li>
+				</ul>
+			</div>
+
+			<div class="col-md-9"><textarea class="form-control" rows="3"></textarea></div>
+
+			<div class="col-md-9 text-right"><p><a class="btn btn-primary btn-lg margin_top_15" href="#" role="button">Send <span class="glyphicon glyphicon-send"></span></a></p></div>
+
+			<div class="col-md-4">
+				<h4>Chat commands:</h4>
+				<ul>
+					<li>Change nickname: /nick [username]</li>
+					<li>Join/create room: /join [room name]</li>
+				</ul>
+			</div>
 		</div>
 	</div>
 </body>
