@@ -1,3 +1,8 @@
 .margin_top_15 {
 	margin-top: 15px
 }
+
+.panel {
+	max-height: 400px;
+	overflow: auto;
+}
