@@ -46,7 +46,7 @@ $(document).ready(function() {
 	});
 
 	socket.on('message', function (message) {
-		var newElement = $('<div></div>').text(message.text);
+		var newElement = $('<div class="panel-body"></div>').text(message.text);
 		$('#messages').append(newElement);
 	});
 
